@@ -1,0 +1,117 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .input, .textarea, .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .input:focus, .textarea:focus, .select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submitbutton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitbutton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .projectlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .projectsitem {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .projecttitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .projectdescription {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .projectstatus {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .progressbar {
+    width: 100%;
+    height: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .progressbarinner {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.5s;
+  }
+  
+  .progressinput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50px;
+  }
+  
+  .deletebutton, .editbutton, .updatestatusbutton {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deletebutton:hover, .editbutton:hover, .updatestatusbutton:hover {
+    background-color: #f9f9f9;
+  }

@@ -1,0 +1,109 @@
+/* Fondo amigable con un gradiente suave */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Caja de login más clara y con colores suaves */
+.loginBox {
+  background: linear-gradient(to right, #71d1bf, #a5b0df);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Título con un color más oscuro para mejor legibilidad */
+.title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333333;
+}
+
+/* Formularios y entradas con bordes más sutiles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Ajuste del color de los labels */
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #333333; /* Color oscuro para mejor contraste */
+}
+
+/* Estilo de los inputs mejorado para mejor visualización */
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b3cde0; /* Un color suave que resalta */
+  font-size: 1rem;
+  background-color: #f0f8ff; /* Fondo claro que contrasta con el fondo de la página */
+  color: #333333; /* Texto oscuro para legibilidad */
+}
+
+/* Ajuste del color de foco para los inputs */
+.inputGroup input:focus {
+  border: 1px solid #0070f3; /* Resalta el borde en foco */
+  background-color: #e6f7ff; /* Ligero cambio en el fondo cuando se enfoca */
+  outline: none;
+}
+
+/* Estilos para el autocompletado */
+.inputGroup input:-webkit-autofill {
+  background-color: #0070f3 !important; /* Mantiene el fondo claro */
+  color: black !important; /* Asegura que el texto sea negro */
+  -webkit-box-shadow: 0 0 0px 1000px #799c96 inset; /* Arregla el fondo en autocompletado */
+  box-shadow: 0 0 0px 1000px #799c96 inset;
+}
+
+/* Aseguramos que el texto sea negro en autofill */
+.inputGroup input:-webkit-autofill::selection {
+  background: #799c96; /* Color del fondo para el texto seleccionado */
+  color: black; /* Color del texto seleccionado */
+}
+
+/* Botón de envío con colores que resaltan pero son suaves */
+.submitBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #45a049;
+}
+
+/* Link de registro con un color agradable */
+.registerLink {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.registerLink a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}
