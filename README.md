@@ -6,6 +6,11 @@ Herbert William Solano Vásquez - SV202844
 Jonathan Jose Flamenco Lopez FL161275
 Raquel abigail Cortez Mata CM162199
 
+link del video:
+https://udbedu-my.sharepoint.com/:v:/g/personal/cm162199_alumno_udb_edu_sv/EaSKdqwkQ7ZNocZQxqJq-_cBbdo_BQxTfWJ-vw2GF4rABQ?e=u0P1ZN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+-------------------------------------
+
 El proyecto consiste en desarrollar una aplicación web con React y Next.js para la gestión de proyectos y tareas. Los usuarios podrán registrarse, iniciar sesión y administrar proyectos, con datos almacenados en una API REST.
 
 Principales Características:
